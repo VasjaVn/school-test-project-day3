@@ -5,7 +5,7 @@ module.exports = {
         "/users": require('./../usersController').getAction
     },
 
-    "POST": {
+    "post": {
         "/users": require('./../usersController').postAction
     }
 };
