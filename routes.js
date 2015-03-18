@@ -1,9 +1,11 @@
-module.exports = {
-  "get": {
-    "/hello": require("./controllers/helloController").getAction
-  },
 
-    "post": {
-        "/hello": require("./controllers/helloController").postAction
+module.exports = {
+
+    "GET": {
+        "/users": require('./../usersController').getAction
+    },
+
+    "POST": {
+        "/users": require('./../usersController').postAction
     }
 };
