@@ -2,10 +2,10 @@
 module.exports = {
 
     "GET": {
-        "/users": require('./../usersController').getAction
+        "/users": require('./lib/usersController').getAction
     },
 
     "POST": {
-        "/users": require('./../usersController').postAction
+        "/users": require('./lib/usersController').postAction
     }
 };
