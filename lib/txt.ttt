@@ -1,0 +1,21 @@
+[root@localhost school-test-project-day6]# npm install
+npm WARN package.json myKoajsRestApp@0.2.1 No repository field.
+npm ERR! git fetch -a origin (git://github.com/yields/merge) fatal: unable to connect to github.com:
+npm ERR! git fetch -a origin (git://github.com/yields/merge) github.com[0: 192.30.252.131]: errno=В соединении отказано
+npm ERR! Linux 3.11.10-301.fc20.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "install"
+npm ERR! node v0.11.16
+npm ERR! npm  v2.3.0
+npm ERR! code 128
+
+npm ERR! Command failed: git fetch -a origin
+npm ERR! fatal: unable to connect to github.com:
+npm ERR! github.com[0: 192.30.252.131]: errno=В соединении отказано
+npm ERR!
+npm ERR!
+npm ERR!
+npm ERR! If you need help, you may report this error at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/lee/WebstormProjects/school-test-project-day6/npm-debug.log
